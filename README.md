@@ -6,19 +6,19 @@ Control a Sony projector
 
 
 
-cd /etc/systemd/system
+`cd /etc/systemd/system`
 
 create x.service; modify
 
-sudo systemctl daemon-reload
+`sudo systemctl daemon-reload`
 
-sudo systemctl start x.service
+`sudo systemctl start x.service`
 
-`sudo systemctl status example.service`
+`sudo systemctl status x.service`
 
-`sudo systemctl status example.service`
+`sudo systemctl status x.service`
 
-`sudo systemctl status example.service`
+`sudo systemctl status x.service`
 
 Todo: add .service files (unit files)<br>
 Todo: check why mqtt client disconnects, reason for cronjobs
