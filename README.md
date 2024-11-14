@@ -1,8 +1,10 @@
 # pi-avr-control
 Raspberry PI RS232 control 
 
-Control a Sony AVR
-Control a Sony projector
+Control a Sony AVR STRDA5800ES
+Control a Sony projector XW5000ES
+
+Todo: check why mqtt client disconnects, reason for cronjobs
 
 
 
@@ -20,8 +22,7 @@ create x.service; modify
 
 `sudo systemctl status x.service`
 
-Todo: add .service files (unit files)<br>
-Todo: check why mqtt client disconnects, reason for cronjobs
+
 
 crontab
 
