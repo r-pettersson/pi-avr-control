@@ -1,5 +1,5 @@
 # pi-avr-control
-Raspberry PI RS232 control 
+Raspberry PI RS232 control - projector and receiver 
 
 Control a Sony AVR STRDA5800ES
 Control a Sony projector XW5000ES
