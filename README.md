@@ -21,3 +21,9 @@ sudo systemctl status example.service
 sudo systemctl status example.service
 
 Todo: add .service files (unit files)
+
+crontab
+
+0 0 * * * sudo systemctl restart avr_control.service
+0 0 * * * sudo systemctl restart proj_control.service
+
