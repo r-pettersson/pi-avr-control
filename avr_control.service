@@ -1,0 +1,15 @@
+[Unit]
+Description=Control STR-DA5800ES
+After=network.target
+
+[Service]
+Type=simple
+Restart=on-failure
+RestartSec=3
+User=pi
+ExecStart=/bin/bash -c 'cd /home/pi/git/pi-avr-control && python3 -u avr_control2.py'
+StandardOutput=file:/var/log/foo/stdout
+StandardError=file:/var/log/foo/stderr
+
+[Install]
+WantedBy=multi-user.target
