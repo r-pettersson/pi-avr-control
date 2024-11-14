@@ -14,9 +14,9 @@ sudo systemctl daemon-reload
 
 sudo systemctl start x.service
 
-sudo systemctl status example.service
+`sudo systemctl status example.service`
 
-sudo systemctl status example.service
+`sudo systemctl status example.service`
 
 `sudo systemctl status example.service`
 
