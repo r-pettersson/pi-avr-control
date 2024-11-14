@@ -19,3 +19,5 @@ sudo systemctl status example.service
 sudo systemctl status example.service
 
 sudo systemctl status example.service
+
+Todo: add .service files (unit files)
