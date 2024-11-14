@@ -25,6 +25,6 @@ Todo: check why mqtt client disconnects, reason for cronjobs
 
 crontab
 
-0 0 * * * sudo systemctl restart avr_control.service
+0 0 * * * sudo systemctl restart avr_control.service<br>
 0 0 * * * sudo systemctl restart proj_control.service
 
