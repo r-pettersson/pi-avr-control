@@ -20,8 +20,7 @@ sudo systemctl status example.service
 
 sudo systemctl status example.service
 
-Todo: add .service files (unit files)
-
+Todo: add .service files (unit files)<br>
 Todo: check why mqtt client disconnects, reason for cronjobs
 
 crontab
